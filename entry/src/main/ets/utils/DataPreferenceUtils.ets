@@ -2,7 +2,9 @@ import { preferences } from '@kit.ArkData'
 
 let context = getContext(this)
 let dataPreferences :preferences.Preferences|null = null
-
+/**
+ * dataPreference存储封装
+ */
 export class DataPreferencesUtils{
 
   //初始化
